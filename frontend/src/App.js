@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
+import ChatBox from './components/Chat/ChatBox';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>AI Customer Support Chatbot</h1>
-        <p>Welcome to the chatbot interface</p>
       </header>
+      <main className="App-main">
+        <ChatBox />
+      </main>
     </div>
   );
 }
